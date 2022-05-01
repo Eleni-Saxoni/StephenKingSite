@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .heroImage {
+            background-image: url("images/heroImages/underthedome1.jpg");
+        }
+       
+        th {
+            text-align: center;
+            vertical-align: middle;
+            font-family: Times New Roman;
+            font-size: 25px;
+            color: maroon;
+            padding: 10px;  
+            border-bottom: 2px solid maroon;
+            border-right: 1px solid maroon;
+            border-left: 1px solid maroon;
+        } 
+
+        td {
+            text-align: center;
+            vertical-align: center;
+            font-family: Times New Roman;
+            font-size: 24px; 
+            color: wheat;
+            padding: 20px;  
+            border-bottom: 2px solid maroon;
+            border-right: 1px solid maroon;
+            border-left: 1px solid maroon;
+        }
+
+        /* Used to manage the first column of the table differently from the rest (less padding and no left border) */
+        .firstRow {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-left: none;
+        }
+
+        /* Used to manage the last column of the table differently from the rest (no right border) */
+        .lastRow { border-right: none; }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="mystyles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/General/favicon.ico" />
+    <title>The Movies</title>
+    <meta charset="UTF-8">
+    <meta name="author" context="Saxoni Eleni">
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url('Images/General/red_smoke.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+
+    <div class="topnav" id="Start">
+        <a href="index.html">An Introduction</a>
+        <a href="biography.html">The Biography</a>
+        <a class="active" href="movies.html">The Movies</a>
+        <a href="popularWorks.html">Popular Works</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="heroImage">
+        <div class="heroTitle">
+            <h1 style="color: bisque; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Stephen King:<br> The Movies</h1>
+        </div>
+    </div>
+
+    <h2 style="text-align: center">Οι πιο γνωστές ταινίες που βασίστηκαν στα έργα του</h2>
+    <table>
+        <tr>
+            <th class="firstRow">Αφίσα</th>
+            <th>Τίτλος</th>
+            <th>Ημερομηνία <br> Κυκλοφορίας</th>
+            <th>Σκηνοθέτης</th>
+            <th class="lastRow">IMDB</th>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/carrie1.jpg" width="200" height="300" alt="Carrie_poster"></td>
+            <td>Carrie</td>
+            <td>1976</td>
+            <td>Brian De Palma</td>
+            <td class="lastRow"><a href="https://www.imdb.com/title/tt0074285/">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/ts1.jpg" width="200" height="300" alt="The_Shining_poster"></td>
+            <td>The Shining</td>
+            <td>1980</td>
+            <td>Stanley Kubrick</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0081505/">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/creepshow1.jfif" width="200" height="300" alt="Creepshow_poster"></td>
+            <td>Creepshow</td>
+            <td>1980</td>
+            <td>George A. Romero</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0083767/?ref_=nv_sr_srsg_3">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/cujo2.jpg" width="200" height="300" alt="Cujo_poster"></td>
+            <td>Cujo</td>
+            <td>1983</td>
+            <td>Lewis Teague</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0085382/?ref_=fn_al_tt_1">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/thedeadzone1.jpg" width="200" height="300" alt="The_Dead_Zone_poster"></td>
+            <td>The Dead Zone</td>
+            <td>1983</td>
+            <td>David Croneenberg</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0085407/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/christine1.jpg" width="200" height="300" alt="Christine_poster"></td>
+            <td>Christine</td>
+            <td>1983</td>
+            <td>John Carpenter</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0085333/?ref_=nv_sr_srsg_7">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/catseye1.jpg" width="200" height="300" alt="Cat's_Eye_poster"></td>
+            <td>Cat's Eye</td>
+            <td>1985</td>
+            <td>Lewis Teague</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0088889/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/standbyme1.jpg" width="200" height="300" alt="Stand_By_Me_poster"></td>
+            <td>Stand By Me</td>
+            <td>1986</td>
+            <td>Rob Reiner</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0092005/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/therunningman1.jpg" width="200" height="300" alt="The_Running_Man_poster"></td>
+            <td>The Running <br> Man</td>
+            <td>1987</td>
+            <td>Paul Michael <br> Glaser</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0093894/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/misery1.jpg" width="200" height="300" alt="Misery_poster"></td>
+            <td>Misery</td>
+            <td>1990</td>
+            <td>Rob Reiner</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0100157/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/shawshank_redemption2.jpg" width="200" height="300" alt="The_Shawshank_Redemption_poster"></td>
+            <td>The Shawshank <br> Redemption</td>
+            <td>1994</td>
+            <td>Frank Darabond</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0111161/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/dolores1.jpg" width="200" height="300" alt="Dolores_Claiborne_poster"></td>
+            <td>Dolores <br> Claiborne</td>
+            <td>1995</td>
+            <td>Taylor Hackford</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0109642/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/thegreenmil1.jpg" width="200" height="300" alt="The_Green_Mile_poster"></td>
+            <td>The Green Mile</td>
+            <td>1999</td>
+            <td>Frank Darabond</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0120689/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/14081.jpg" width="200" height="300" alt="1408_poster"></td>
+            <td>1408</td>
+            <td>2007</td>
+            <td>Mikael Håfström</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0450385/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/themist1.jpg" width="200" height="300" alt="The_Mist_poster"></td>
+            <td>The Mist</td>
+            <td>2007</td>
+            <td>Frank Darabond</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt0884328/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/it1.jpg" width="200" height="300" alt="It_poster"></td>
+            <td>It</td>
+            <td>2017</td>
+            <td>Andy Muschietti</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt1396484/?ref_=nv_sr_srsg_6">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/geraldsgame2.jpg" width="200" height="300" alt="Gerald's_Game_poster"></td>
+            <td>Gerald's Game</td>
+            <td>2017</td>
+            <td>Mike Flanagan</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt3748172/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/19221.jpg" width="200" height="300" alt="1922_poster"></td>
+            <td>1922</td>
+            <td>2017</td>
+            <td>Zak Hilditch</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt6214928/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/itchapter21.jpg" width="200" height="300" alt="It_Chapter_Two_poster"></td>
+            <td>It Chapter Two</td>
+            <td>2019</td>
+            <td>Andy Muschietti</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt7349950/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+        <tr>
+            <td class="firstRow"><img src="Images/Movie_posters/doctorsleep1.jpg" width="200" height="300" alt="Doctor_Sleep_poster"></td>
+            <td>Doctor Sleep</td>
+            <td>2019</td>
+            <td>Mike Flanagan</td>
+            <td class="lastRow"> <a href="https://www.imdb.com/title/tt5606664/?ref_=nv_sr_srsg_0">Πάτα εδώ!</a></td>
+        </tr>
+    </table>
+
+    <h2 style="text-align: center">Trailers των πιο πετυχημένων ταινιών του</h2>
+    <p>It (2017) - $701.7 εκατομμύρια παγκοσμίως</p>
+    <iframe src="https://www.youtube.com/embed/FnCdOQsX5kc" width="600" height="350"></iframe>
+
+    <p>It: Chapter Two (2019) - $473 εκατομμύρια παγκοσμίως</p>
+    <iframe src="https://www.youtube.com/embed/zqUopiAYdRg" width="600" height="350"></iframe>
+
+    <p>The Green Mile (1999) - $286.8 εκατομμύρια παγκοσμίως</p>
+    <iframe src="https://www.youtube.com/embed/c661tGdl0AI" width="600" height="350"></iframe>
+
+    <h2>Η άποψη του συγγραφέα για τις ταινίες</h2>
+    <p>  
+        Ο βασιλιάς του Φόβου δεν είναι ούτε αρνητικά, αλλά ούτε και θετικά, προϊδεασμένος για την κινηματογραφική
+        βιομηχανία. Έχει δεχθεί πολλαπλές φορές (όπως φαίνεται από τον παραπάνω πίνακα) να μεταβούν τα δημιουργήματά του από
+        το χαρτί στην μεγάλη οθόνη, με διαφορετικά ονόματα να κρατάνε την σκυτάλη κάθε φορά. Η ταινία που έχει γνωρίσει την
+        μεγαλύτερή του αποδοκιμασία δεν είναι άλλη από το <i>The Shining</i> του Stanley Kubrick, μία ταινία που θεωρείται
+        εως και σήμερα ένα από τα μεγαλύτερα κλασικά δημιουργήματα του κινηματογράφου του τρόμου. Ο King έχει σχολιάσει χαρακτηριστικά:
+    <p>
+        <i>"Έχω αληθινό πρόβλημα με την ταινία </i>'The Shining' <i>
+            [...] Ο Stanley Kubrick μου είχε πει "Εη Stephen, δεν συμφωνείς
+            ότι όλες οι ιστορίες με φαντάσματα είναι εκ φύσεως αισιόδοξες;" "Τι εννοείς;", τον ρωτάω. "Εαν υπάρχουν φαντάσματα,
+            αυτό σημαίνει ότι οι άνθρωποι έχουμε ζωή μετά τον θάνατο, και αυτό είναι εκ φύσεως αισιόδοξο." "Και αυτό </i> (που βιώνουν τα
+            φαντάσματα) <i> δεν είναι η Κόλαση;", τον ρωτάω. "Δεν πιστεύω στην Κόλαση", μου απάντησε. [...] Κάποιοι από εμάς
+            πιστεύουμε στην αληθινή Κόλαση, και μάλιστα αυτή είναι αυτό που βιώνουν όσα φαντάσματα "επιβιώνουν".
+            [...] Πάντα έβλεπα τους χαρακτήρες </i> (του The Shining) <i> ως <b>ζεστούς</b> ανθρώπους, που απειλούνταν από <b>εξωτερικές</b>
+            δυνάμεις, από φαντάσματα. [...] Στην ταινία </i> (οι χαρακτήρες) <i> είναι εξαιρετικά <b>παγωμένοι</b>. Ο Stanley Kubrick θεώρησε ότι
+            το στοιχειό προερχόταν από (<b>τον ίδιο</b>) τον Jack Torrace. [...] Η μεγαλύτερη διαφορά στην αντιλήψή μου και σε αυτή του Stanley Kubrick
+            ήταν η εξής: στο βιβλίο μου, το ξενοδοχείο <b>καίγεται</b>. Στην ταινία του Kubrick, το ξενοδοχείο <b>παγώνει</b>..."
+        </i>
+    </p>
+    <p style="font-size: 15px;">
+        Απόσπασμα από συνέντεξη. Για να παρακολουθήσετε ολόκληρο το βίντεο, πατήστε <a href="https://www.youtube.com/watch?v=U77Fn0OxAR4">εδώ</a>.
+    </p>
+    <p>
+        Αντίθετα με την επικριτικότητα απέναντι στην ταινία του Kubrick, ο συγγραφέας εχει εκφράσει μόνο θερμά συναισθήματα απέναντι
+        στην ταινία του Rob Reiner <i>Stand By Me</i>. Λέγεται ότι αφού είχε δει μία πρόημη προβολή της ταινίας, ο King πλησιάζοντας
+        τον σκηνοθέτη είχε πει πως αυτή η προσπάθεια ήταν "η καλύτερη ταινία που έχει δημιουργηθεί από δικό μου κείμενο [...]". Συνέχισε
+        υποστηρίζοντας ότι ο Reiner "πραγματικά ζωντάνεψε την ιστορία". Ο συγγραφέας έμεινε πραγματικά εντυπωσιασμένος από την δουλειά του σκηνοθέτη,
+        δίνοντάς του τις ευλογίες του για την σκηνοθετική του επιχείρηση.
+    </p>
+
+    <p style="font-size: 15px; text-align: center; padding-top: 50px"><a href="#Start"> Επιστροφή στην αρχή της σελίδας.</a></p>
+
+    <footer>
+        <p style="font-family: Calibri; font-size: 16px; color: slategrey; text-align: center"> © Eleni Saxoni 2020</p>
+    </footer>
+</body>
+</html>
