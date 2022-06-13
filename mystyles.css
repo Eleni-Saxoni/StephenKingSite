@@ -3,14 +3,14 @@
 body { background-color: black; }
 
 p {
-  text-align: left;
-  font-family: Times New Roman;
-  font-size: 17px;
-  color: wheat; 
-  padding-left: 400px;
-  padding-right: 400px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  	text-align: left;
+ 	font-family: Times New Roman;
+  	font-size: 17px;
+	color: wheat; 
+  	padding-left: 400px;
+ 	padding-right: 400px;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
 }
 
 h1 {
@@ -30,8 +30,8 @@ h2 {
 	font-size: 35px;
 	color: maroon;
 	text-decoration: underline;
-    padding-left: 400px;
-    padding-right: 400px;
+   	padding-left: 400px;
+    	padding-right: 400px;
 	padding-top: 10px;
 	padding-bottom: 1px;
 }
@@ -40,26 +40,26 @@ h3 {
 	text-align: left;
 	font-family: Times New Roman;
 	font-size: 20px;
-    color: wheat;
+    	color: wheat;
 	padding-top: 10px;
 	padding-bottom: 2px;
-    padding-left: 400px;
-    padding-right: 400px;
+   	padding-left: 400px;
+    	padding-right: 400px;
 }
 
 /*The menu*/
 .topnav {
-  background-color: black;
-  overflow: hidden;
+  	background-color: black;
+  	overflow: hidden;
 }
 
 .topnav a:link {
-  float: left;
-  padding: 14px 16px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 23px;
-  color:wheat;
+  	float: left;
+  	padding: 14px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 23px;
+  	color:wheat;
 }
 
 .topnav a:visited {
@@ -67,30 +67,30 @@ h3 {
 }
 
 .topnav a:hover {
-  background-color: maroon;
-  color: black;
+  	background-color: maroon;
+  	color: black;
 }
 
 /* Add a color to the active/current page */
 .topnav a.active {
-  background-color: maroon;
-  color: black;
+  	background-color: maroon;
+  	color: black;
 }
 
 /* Image displayed at the top of the page */
 .heroImage {
-  height: 300px;
-  background-position: center;
-  position: relative;
+  	height: 300px;
+  	background-position: center;
+  	position: relative;
 }
 
 /* Text displayed inside the heroImage */
 .heroTitle {
-   text-align: center;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   	text-align: center;
+  	position: absolute;
+   	top: 50%;
+   	left: 50%;
+   	transform: translate(-50%, -50%);
 }
 
 iframe {
@@ -126,17 +126,17 @@ a:visited {
 }
 
 ul {
-  text-align: left;
-  font-family: Times New Roman;
-  font-size: 17px;
-  color: wheat;
-  padding-top: 5px;
-  padding-bottom: 1px;
-  padding-left: 400px;
-  padding-right: 400px;
+	  text-align: left;
+	  font-family: Times New Roman;
+	  font-size: 17px;
+	  color: wheat;
+	  padding-top: 5px;
+	  padding-bottom: 1px;
+	  padding-left: 400px;
+	  padding-right: 400px;
 
 }
 
 footer  {
-    background-color: rgb(92, 2, 2);
+    	background-color: rgb(92, 2, 2);
 }	
